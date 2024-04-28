@@ -1,0 +1,34 @@
+@use "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/placeholders";
+@import "abstracts/sections";
+@import "abstracts/variables";
+
+@import "base/reset";
+@import "base/typography";
+
+@import "layout/footer";
+@import "layout/forms";
+@import "layout/grid";
+@import "layout/header";
+@import "layout/navigation";
+@import "layout/slidebar";
+
+@import "components/dropdown";
+@import "components/buttons";
+@import "components/carrousel";
+@import "components/cover";
+
+@import "pages/contact";
+@import "pages/home";
+
+@import "theme/admin";
+@import "theme/theme";
+
+@import "theme/admin";
+@import "theme/theme";
+
+@import "vendor/bootstrap";
+@import "vendor/jquery-ui";

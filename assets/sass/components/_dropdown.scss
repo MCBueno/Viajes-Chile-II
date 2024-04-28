@@ -1,0 +1,18 @@
+.section1 {
+    background-color: aquamarine;
+    &__contenedor {
+        display: flex;
+        &--img {
+            width: 200px;
+        }
+        &--texto {
+            font-size: 20px;
+        }
+        &--textoespecial {
+            font-size: 80px;
+            font-weight: bolder
+        }
+    }
+
+
+}
